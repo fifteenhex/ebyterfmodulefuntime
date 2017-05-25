@@ -1,0 +1,4 @@
+According to the datasheet the transparent serial modules and DTU (module in a case) have
+a super secret code that protects the data being transmitted.
+The super secret code is XOR'ing a byte of a static key with each byte of data being sent.
+Recovering the key is trival and all units apparently use the same key.. doh. 
